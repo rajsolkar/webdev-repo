@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@100..400&family=Teko:wght@300..700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: beige;
+            font-family: "Teko";
+        }
+
+        .links {
+            padding-left: 95%;
+            padding-top: 15px;
+        }
+
+        .links a {
+            padding-left: 12px;
+            padding-right: 10px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            background-color: white;
+            border: 3px solid gray;
+            border-radius: 15px;
+            padding-right: 20px;
+            padding-left: 10px;
+            cursor: pointer;
+
+        }
+
+        .links a:hover {
+            color: rgb(177, 177, 253);
+            background-color: rgb(49, 44, 44);
+        }
+
+        h1 {
+            padding-left: 45%;
+            font-size: 50px;
+            background-color: white;
+            border: 4px solid gray;
+            border-radius: 30px;
+            overflow: auto;
+        }
+
+        .form {
+            background-color: #f8d772;
+            text-align: center;
+            font-size: xx-large;
+            padding-left: 30px;
+            border: 4px solid gray;
+            border-radius: 20px;
+            padding-bottom: 40px;
+            font-style: italic;
+        }
+
+        .formgroup input {
+            width: 60%;
+            border: 3px solid gray;
+            border-radius: 10px;
+            font-size: x-large;
+            font-family: "Teko";
+            padding-left: 10PX;
+        }
+        .formgroup input{
+            background-color:beige;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="links"> <a href="yashhomepage.html">Home</a></div>
+    <h1><i>Contact Us</i></h1>
+    <form action="backend.php"></form>
+    <div class="form">
+        <label for="name">Name</label>
+        <div class="formgroup"><input type="text" name="myname" id="name"></div>
+        <label for="number">Contact Number</label>
+        <div class="formgroup"><input type="number" name="mynumber" id="number"></div>
+        <label for="email">Your Email</label>
+        <div class="formgroup"><input type="email" name="myemail" id="email"></div>
+        <label for="location">Job Location</label>
+        <div class="formgroup"><input type="text" name="mylocation" id="location"></div>
+           <input type="submit" value="submit now" name="Submit Form">
+          
+           <input type="reset" value="reset now" name="Reset Form" id="reset">
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
